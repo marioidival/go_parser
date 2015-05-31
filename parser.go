@@ -14,7 +14,6 @@ type Mapped map[string]interface{}
 type Parser struct {
 	Resp        *http.Response
 	ContentType string
-	M           []Mapped
 }
 
 func (p *Parser) GetContent() {
